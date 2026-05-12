@@ -58,8 +58,4 @@ streamlit run app.py
 
 Add student images inside the dataset folder.
 
-Example:
-
-dataset/
-   kalyani.jpg
-   rahul.jpg
+g
