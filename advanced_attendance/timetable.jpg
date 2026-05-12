@@ -1,0 +1,24 @@
+# =====================================================
+# TIMETABLE IMAGE
+# =====================================================
+
+from PIL import Image
+
+st.markdown("---")
+
+st.markdown("## 📅 Class Timetable")
+
+image_path = r"c:\Users\morer\Downloads\ChatGPT Image May 12, 2026, 12_51_25 PM.png"
+
+if os.path.exists(image_path):
+
+    image = Image.open(image_path)
+
+    st.image(
+        image,
+        use_container_width=True
+    )
+
+else:
+
+    st.warning("⚠ Timetable image not found")
